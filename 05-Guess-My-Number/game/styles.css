@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+body {
+  font-family: "Press Start 2p";
+  background-color: #222;
+  color: #fff;
+}
+.btn-again button {
+  position: absolute;
+  font-size: 1.3rem;
+  font-family: "Press Start 2p";
+  padding: 30px 40px;
+  border-radius: 0.8rem;
+  top: 30px;
+  left: 20px;
+}
+
+.btn-again button:hover {
+  background-color: rgb(71, 71, 71);
+  color: #fff;
+  cursor: pointer;
+}
+
+.numberToGuess p {
+  position: absolute;
+  right: 20px;
+  top: 30px;
+  font-size: 0.8rem;
+}
+
+header h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 180px;
+  font-size: 2.7rem;
+}
+
+.askSing {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  padding: 2px;
+}
+.askSing .line {
+  top: 50vw;
+  position: absolute;
+  background-color: #fff;
+  height: 5px;
+  width: 100vw;
+}
+
+.askSing p {
+  padding: 1.5rem 2rem;
+  font-size: 3.5rem;
+  background-color: #fff;
+  color: #000;
+}

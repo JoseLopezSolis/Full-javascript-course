@@ -13,11 +13,18 @@ html {
 
 body {
   font-family: 'Press Start 2P', sans-serif;
-  color: #eee;
+  color: #fff;
   background-color: #222;
   /* background-color: #60b347; */
 }
 
+.win {
+  background-color: #60b347;
+}
+
+.loose {
+  background-color: rgba(255, 0, 0, 0.996);
+}
 /* LAYOUT */
 header {
   position: relative;
@@ -96,6 +103,7 @@ h1 {
 }
 
 .btn {
+  border-radius: 1.5rem;
   border: none;
   background-color: #eee;
   color: #222;
@@ -106,7 +114,8 @@ h1 {
 }
 
 .btn:hover {
-  background-color: #ccc;
+  background-color: rgb(91, 91, 91);
+  color: #fff;
 }
 
 .message {
